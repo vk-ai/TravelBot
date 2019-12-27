@@ -1,0 +1,1405 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thank you"
+      },
+      {
+        "intent": "greet",
+        "text": "hola"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello sweet boy"
+      },
+      {
+        "intent": "greet",
+        "text": "hello sweatheart"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "toodle-oo"
+      },
+      {
+        "intent": "goodbye",
+        "text": "farewell"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye was nice talking to you"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a real bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a bot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a robot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "what are you, a bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "tell me, are you a bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a chatbot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you ai"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you artificial intelligence"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you artificial"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "i guess you are a chatbot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "Hi there, are you the bot?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you robot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "So I'm here Today to ask one very simple question, what are you ?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you sure that you're a bot?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "whats your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what's your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "when were you born?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what is your birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "when is your birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how many years old are you?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what year were you born?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "can you tell me your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What is your birthdate?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How old will you be on your next birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "When do you celebrate your day of birth?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How old were you on your last birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "When were you created?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "tell me your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how about your age"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What year were you born?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How long have you been around?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How long have you been alive?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What was your age on your last birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How many years have you lived?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How many years have you been alive?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How long have you occupied the earth?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "what is my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "May i know my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What is my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Tell me my name."
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What name do I go by?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What name should I recognize for myself?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Do I have a name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Please let me know what my name is"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Can you tell me what I am called?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What would be the name on my tombstone?"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "malaysia",
+            "entity": "location"
+          }
+        ],
+        "text": "What are the restaurants in malaysia"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "malaysia",
+            "entity": "location"
+          }
+        ],
+        "text": "Good restaurants in malaysia"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "Kuala Lumpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Nice restaurants in Kuala Lumpur"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "George Town",
+            "entity": "location"
+          }
+        ],
+        "text": "Nice restros in George Town"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "Ipoh",
+            "entity": "location"
+          }
+        ],
+        "text": "Restaurants in Ipoh"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "Johor Bahru",
+            "entity": "location"
+          }
+        ],
+        "text": "Great restaurants in Johor Bahru"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "Kuantan",
+            "entity": "location"
+          }
+        ],
+        "text": "Restaurants to visit in Kuantan"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "Kuching",
+            "entity": "location"
+          }
+        ],
+        "text": "Places to eat in Kuching"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "Malacca",
+            "entity": "location"
+          }
+        ],
+        "text": "Where can I eat good food in Malacca"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "Miri",
+            "entity": "location"
+          }
+        ],
+        "text": "Good place to eat in Miri"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Bengaluru",
+            "entity": "location"
+          }
+        ],
+        "text": "Nice place to eat in Bengaluru"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "New York",
+            "entity": "location"
+          }
+        ],
+        "text": "Nice restaurants in New York"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 35,
+            "end": 44,
+            "value": "Singapore",
+            "entity": "location"
+          }
+        ],
+        "text": "Place where can I get good food in Singapore"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "Malaysia",
+            "entity": "location"
+          }
+        ],
+        "text": "Places to visit in Malaysia"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "Kuala Lumpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Sightseeing places in Kuala Lumpur"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "George Town",
+            "entity": "location"
+          }
+        ],
+        "text": "Tourist places in George Town"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "Singapore",
+            "entity": "location"
+          }
+        ],
+        "text": "Great places to travel in Singapore"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "Top places to visit in London"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ],
+        "text": "Best places to visit in Amsterdam"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "France",
+            "entity": "location"
+          }
+        ],
+        "text": "Places to visist in France"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "Ipoh",
+            "entity": "location"
+          }
+        ],
+        "text": "Tourist places in Ipoh"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 35,
+            "end": 46,
+            "value": "Johor Bahru",
+            "entity": "location"
+          }
+        ],
+        "text": "What are the places I can visit in Johor Bahru"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "India",
+            "entity": "location"
+          }
+        ],
+        "text": "Sightseeing places in India"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Kuantan",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me the places which I can travel in Kuantan"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Rajasthan",
+            "entity": "location"
+          }
+        ],
+        "text": "Destination places in Rajasthan"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Kerala",
+            "entity": "location"
+          }
+        ],
+        "text": "Places to travel in Kerala"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "Malaysia",
+            "entity": "location"
+          }
+        ],
+        "text": "Any cars available for rentals in Malaysia"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "Kuala Lumpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Car rentals in Kuala Lumpur"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "Singapore",
+            "entity": "location"
+          }
+        ],
+        "text": "Renting cars in Singapore"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "Ipoh",
+            "entity": "location"
+          }
+        ],
+        "text": "Tell me any car rentals in Ipoh"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "Cars available for rents in London"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Bengaluru",
+            "entity": "location"
+          }
+        ],
+        "text": "Please provide me car rentals details in Bengaluru"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ],
+        "text": "Renting cars in Amsterdam"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 38,
+            "end": 46,
+            "value": "New York",
+            "entity": "location"
+          }
+        ],
+        "text": "Cars available for renting purpose in New York"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "ask_restaurants",
+        "text": "restaurants in india"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Karnataka",
+            "entity": "location",
+            "confidence": 0.9510370344359176,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "restaurants in Karnataka"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "Kuala Lumpur",
+            "entity": "location",
+            "confidence": 0.9831992153374789,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Nice restaurants in Kuala Lumpur"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "India",
+            "entity": "location",
+            "confidence": 0.9575174645094208,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Nice restros in India"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "Malacca",
+            "entity": "location",
+            "confidence": 0.9727106966946527,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Where can I eat good food in Malacca"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "Malacca",
+            "entity": "location",
+            "confidence": 0.9755482782260295,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Where can I eat good food in Malacca"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "Ipoh",
+            "entity": "location",
+            "confidence": 0.9799776987129261,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Restaurants in Ipoh"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What name do I go by?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How many years have you been alive?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "whats your age?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you robot"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "Kuantan",
+            "entity": "location",
+            "confidence": 0.977141735230655,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Restaurants to visit in Kuantan"
+      },
+      {
+        "intent": "ask_restaurants",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Bengaluru",
+            "entity": "location",
+            "confidence": 0.9744570085557045,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Nice place to eat in Bengaluru"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "Malaysia",
+            "entity": "location",
+            "confidence": 0.9931189781325164,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Places to visit in Malaysia"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "France",
+            "entity": "location",
+            "confidence": 0.9755935754351107,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Places to visist in France"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 35,
+            "end": 46,
+            "value": "Johor Bahru",
+            "entity": "location",
+            "confidence": 0.9704508629529992,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "What are the places I can visit in Johor Bahru"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Rajasthan",
+            "entity": "location",
+            "confidence": 0.9796504640244166,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Destination places in Rajasthan"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 34,
+            "end": 42,
+            "value": "Malaysia",
+            "entity": "location",
+            "confidence": 0.993118975087476,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Any cars available for rentals in Malaysia"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "Singapore",
+            "entity": "location",
+            "confidence": 0.9798169474029191,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Renting cars in Singapore"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "London",
+            "entity": "location",
+            "confidence": 0.977821708111709,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Cars available for rents in London"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Bengaluru",
+            "entity": "location",
+            "confidence": 0.9804303179988605,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Please provide me car rentals details in Bengaluru"
+      },
+      {
+        "intent": "ask_carrentals",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "London",
+            "entity": "location",
+            "confidence": 0.977821708111709,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Cars available for rents in London"
+      },
+      {
+        "intent": "ask_touristattraction",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Amsterdam",
+            "entity": "location",
+            "confidence": 0.9778217059973275,
+            "extractor": "CRFEntityExtractor"
+          }
+        ],
+        "text": "Best places to visit in Amsterdam"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "who are you"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "What are you"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you a chatbot"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you artificial intelligence"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "are you sure that you're a bot?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "whats your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How old will you be on your next birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how about your age"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What name should I recognize for myself?"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "tell me, are you a bot?"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thank you"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "ask_isbot",
+        "text": "yu bot?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old are yu?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Tell me my name."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "FUCK FUCK"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck Off"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck off"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck u"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck off"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck u"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "God you're a moron"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "I can't believe how dumb you are"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "I hate you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Loser"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Stupid"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are a fool."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are an idiot."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are dumb."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are shortsighted."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are unintelligent."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are unknowing."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You brain is dull."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You have no brains."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You have no intelligence."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You have no sense."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You know nothing."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You lack intelligence."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You lack understanding."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You're a dolt."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You're foolish."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You're an idiot."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Your intelligence is laughable."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Your mindset is naive."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "a baby knows more than you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "are u dump?"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "are you brain dead?"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "asshole"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "bitch"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "bloody dunce"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "but you are idiot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "deal with my ass, you bitch"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck off"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck rasa"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck u"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck you machine learning bot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck you travelbot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck you!"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fucking stupid"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fucking work"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "get lost"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "go die bot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "go away and die"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "go fuck yourself"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "go kill yourself"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "go to hell"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "how can you be such an idiot?"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "i hate you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "i hate your dumb face"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "i think that you're a bullshit"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "idiot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "insult you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "ok fuck you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "ok shut up"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "travelbot you look like a burnt sparrow"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "shit"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "shit bot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "shut up asshole"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "so dumb"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "so fucking dumb"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "sucker"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "that wasn't very funny"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "that was a terrible fucking joke"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "u r a piece of junk"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "ur a pussy"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "what fuck"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "yep but you are idiot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are a moron"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are a stupid bot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are fucking stupid"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you asshole"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you son of a bitch"
+      },
+      {
+        "intent": "greet",
+        "text": "Yo"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Your mindset is naive."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "a baby knows more than you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "travelbot you look like a burnt sparrow"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "ok fuck you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "shut up asshole"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "shit bot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "that was a terrible fucking joke"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "go and die somewhere"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Kill yourself"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

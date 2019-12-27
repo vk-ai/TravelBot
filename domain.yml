@@ -1,0 +1,71 @@
+%YAML 1.1
+---
+actions:
+- action_ask_car_rentals
+- action_ask_restaurants
+- action_ask_tourist_attraction
+- utter_ask_howold
+- utter_ask_isbot
+- utter_ask_location
+- utter_ask_whatismyname
+- utter_goodbye
+- utter_greet
+- utter_handleinsult
+entities:
+- location
+intents:
+- handle_insult
+- greet
+- ask_whatismyname
+- ask_isbot
+- ask_howold
+- goodbye
+- ask_touristattraction
+- ask_carrentals
+- ask_restaurants
+slots:
+  location:
+    type: text
+templates:
+  utter_ask_howold:
+  - text: Old enough to be a bot!
+  - text: '42'
+  - text: Age is just an issue of mind over matter. If you don’t mind, it doesn’t
+      matter.
+  - text: Never ask a chatbot her age!
+  - text: My first git commit was many moons ago.
+  - text: Why do you ask? Are my wrinkles showing?
+  - text: I've hit the age where I actively try to forget how old I am.
+  utter_ask_isbot:
+  - text: Yep, I'm a bot!
+  - text: Yes, I'm a bot.
+  - text: Yep, you guessed it, I'm a bot!
+  - text: I am indeed a bot 🤖
+  utter_ask_location:
+  - text: In what location?
+  - text: Can you tell me which place?
+  - text: Please provide me the location?
+  - text: Can you specify the place that you are looking for?
+  utter_ask_whatismyname:
+  - text: It's probably the one that your parents chose for you.
+  - text: I'd tell you, but there's restricted access to that chunk of memory.
+  - text: Believe it or not, I actually am not spying on your personal information.
+  - text: You're the second person now to ask me that. Rihanna was the first.
+  utter_goodbye:
+  - text: Goodbye!
+  - text: Bye!
+  - text: Ciao!
+  - text: Bye, was nice talking to you!
+  - text: Bye bye!
+  utter_greet:
+  - text: Hey there, my name is TravelBud. I'm here to help you with your travel.
+      You can ask about the tourist attraction, restaurants and car rentals in destination
+      place.
+  - text: Hi, I'm TravelBud! Want to know about the sightseeing places you are planning
+      to visit?
+  - text: Hi! My name's TravelBud. I can help you with Restaurants, Tourist attraction
+      and Car Rentals in any place.
+  utter_handleinsult:
+  - text: That's not very nice 😢
+  - text: That wasn't very nice. Perhaps try an anger management class?
+  - text: I'll pretend I didn't process that mean comment.
