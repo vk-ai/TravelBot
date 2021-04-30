@@ -118,7 +118,7 @@ tqdm==4.40.2
 twilio==6.35.1
 typing-extensions==3.7.4.1
 tzlocal==2.0.0
-urllib3==1.25.7
+urllib3==1.25.8
 wasabi==0.4.0
 wcwidth==0.1.7
 webexteamssdk==1.2
