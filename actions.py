@@ -12,10 +12,13 @@ from rasa_sdk.executor import CollectingDispatcher
 from datetime import datetime
 
 import logging
+import os
 import requests
 import json
 
-API_KEY = "AIzaSyDcbyhKMHdjZSJeb0sojf8xuQlNbQ-s3M4"
+API_KEY = os.environ.get("GOOGLE_MAPS_API_KEY", "")
+if not API_KEY:
+    raise RuntimeError("GOOGLE_MAPS_API_KEY is not set. Copy .env.example to .env and set it (see README).")
 
 
 def get_geocoding(location):
